@@ -2,5 +2,14 @@
 
 In this project, we will talk about YoloV3 Architecture and how to train it on a custom dataset, I will explain step by step how to do it by using the Darknet framework.
 
-Introduction</p><ul id="l1"><li><p style="padding-top: 1pt;padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">What is Object Detection?</p></li><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">How does object detection work?</p></li><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">YOLO - You Only Look Once</p><ul id="l2"><li><p style="padding-left: 78pt;text-indent: -18pt;line-height: 13pt;text-align: left;">YOLO v3.</p><ul id="l3"><li><p style="padding-left: 114pt;text-indent: -18pt;line-height: 12pt;text-align: left;">Network Architecture</p></li><li><p style="padding-left: 114pt;text-indent: -18pt;line-height: 13pt;text-align: left;">Feature Extractor</p></li><li><p style="padding-left: 114pt;text-indent: -18pt;text-align: left;">Feature Detector</p></li><li><p style="padding-left: 114pt;text-indent: -18pt;text-align: left;">Complete Network Architecture</p></li></ul></li></ul></li></ul><p style="text-indent: 0pt;text-align: left;"><br/></p><ul id="l4"><li><p class="s1" style="padding-left: 18pt;text-indent: -12pt;text-align: left;">– How to train YOLOv3 on a custom dataset.</p><p style="text-indent: 0pt;text-align: left;"><br/></p><ul id="l5"><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">Data Preparation</p></li><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">Labelimg</p></li><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">Getting the files ready for training</p></li><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">Training the model by using Darknet</p></li><li><p style="padding-left: 42pt;text-indent: -18pt;line-height: 13pt;text-align: left;">Use your custom weights for object detection.</p></li></ul></li></ul></body></html>
+Ⅰ – Introduction
+•     What is Object Detection?
+•     How does object detection work?
+•     YOLO - You Only Look Once
+o  YOLO v3.
+▪     Network Architecture
+▪     Feature Extractor
+▪     Feature Detector
+▪     Complete Network Architecture
+
 
