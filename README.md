@@ -30,5 +30,13 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > ![title](/images/Image_003.jpg)
 > Image from [machinelearningmastery](https://machinelearningmastery.com/object-recognition-with-deep-learning/)
 
+###### How does object detection work?
+> Object detection finds the object and draws a bounding box around it.
+> This is a computer technology related to computer vision and image processing
+> used for autonomous cars, face recognition, pedestrian detection, and more ...
+> State-of-the-art algorithms are being used to detect objects e.g., R-CNN, Fast
+> R-CNN, Faster R-CNN, Mask R-CNN, SSD, YOLO, etc. But we are
+> specifically interested in YOLO.
+
 
 
