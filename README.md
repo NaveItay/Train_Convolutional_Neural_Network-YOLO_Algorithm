@@ -192,8 +192,28 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > Now let's start with Google Colab Notebook.
 >      
 > 1.  Make sure you enable GPU.
-> 
-
+>       
+> ![title](/images/GPU.png)
+>       
+> 2.  ![title](/images/Image_015.jpg)
+>       
+> You can see that we got a Tesla K80 GPU using the 11.2 Cuda version.
+> bad luck, sometimes I got the Tesla v100 😉.
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
 
 
 
