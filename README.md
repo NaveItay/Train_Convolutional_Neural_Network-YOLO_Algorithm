@@ -184,17 +184,22 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > Darknet is an open-source neural network framework written in C and CUDA.
 > It is fast, easy to install, and supports CPU and GPU computation. You can
 > find the source on [GitHub](https://github.com/pjreddie/darknet).
->       
+<br/>
+
 > Reference: [pjreddie.com](https://pjreddie.com/darknet/yolo/).
->
+<br/>
+
 > ![title](/images/Image_012.jpg)
->       
+<br/>
+
 > Now let's start with Google Colab Notebook.
->      
+<br/>
+
 > 1.  Make sure you enable GPU.
 >       
 > ![title](/images/GPU.PNG)
->       
+<br/>
+
 > 2.       
 > ![title](/images/Image_015.jpg)
 <br/>
@@ -203,9 +208,7 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > bad luck, sometimes I get the Tesla v100 😉.
 <br/>
 
-  
-> 3.  Connect Colab with Google Drive
-<br/>   
+> 3.  Connect Colab with Google Drive  
 > ![title](/images/Image_016.jpg)
 <br/>
     
