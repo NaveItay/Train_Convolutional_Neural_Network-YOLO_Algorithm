@@ -28,6 +28,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > real-time on videos.
 >  
 > ![title](/images/Image_003.jpg)
+>     
 > Image from [machinelearningmastery](https://machinelearningmastery.com/object-recognition-with-deep-learning/)
 
 ###### How does object detection work?
@@ -64,6 +65,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > (Darknet-53).
 >
 >  ![title](/images/Image_004.jpg)
+>       
 >  This image is the darknet-53 architecture taken from [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
 >  
 >
