@@ -109,6 +109,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > extractor, and the detector).
 >       
 > ![](/images/Image_006.jpg =1500x750)
+> <span><img width="783" height="431" alt="image" src="Convolutional Neural Network Project 3/Image_006.jpg"/></span>
 >       
 > Diagram from [https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 > 
