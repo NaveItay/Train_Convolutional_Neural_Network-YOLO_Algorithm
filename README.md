@@ -215,32 +215,83 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > ```    
 > width = 416
 > height = 416
-> *(these can be any multiple of 32, 416 is standard, you can sometimes improve*
-> *results by making value larger like 608 but will slow down training).*
+> (these can be any multiple of 32, 416 is standard, you can sometimes improve
+> results by making value larger like 608 but will slow down training).
 >        
 > Max_batches = (number of classes) * 2000
-> *(but no less than 6000 so if you are training for 1, 2, or 3 classes it will be 6000,*
-> *however, the detector for 5 classes would have max_batches=10000).*
+> (but no less than 6000 so if you are training for 1, 2, or 3 classes it will be 6000,
+> however, the detector for 5 classes would have max_batches=10000).
 >        
 > Steps = (80% of max_batches), (90% of max_batches)
-> *(so, if your max_batches = 10000, then steps = 8000, 9000).*
+> (so, if your max_batches = 10000, then steps = 8000, 9000).
 >      
 > Filters = (number of classes + 5) * 3
 >       
-> *(so, if you are training for one class then your filters = 18, but if you are training
-> for 4 classes then your filters = 27).*
+> (so, if you are training for one class then your filters = 18, but if you are training
+> for 4 classes then your filters = 27).
 >       
-> **Optional:** If you run into memory issues or find the training taking a super
+> Optional: If you run into memory issues or find the training taking a super
 > long time. In each of the three yolo layers in the cfg, change one line from
 > random = 1 to random = 0 to speed up training but slightly reduce the
 > accuracy of the model. Will also help save memory if you run into any
 > memory issues.
 > ```
+>            
+> 6.  Create your .names and .data files.
+> 
+> ![title](/images/Image_019.jpg)
 >        
-
-
-
-
-
-
-
+> 7.  Save .cfg and obj.names files in Google drive.
+>        
+> ![title](/images/Image_020.jpg)
+>        
+> 8.  Create a folder and unzip the image dataset.
+>        
+> ![title](/images/Image_021.jpg)
+>
+> 9.  Create train.txt file.
+>          
+> ![title](/images/Image_022.jpg)
+>          
+> 10. Download pre-trained weights.
+>        
+> ![title](/images/Image_023.jpg)        
+>         
+> For training, we use convolution weights that are pre-trained on the
+> ImageNet dataset.
+>        
+> 11. Finally, start training.
+>          
+> ![title](/images/Image_024.jpg)
+>     
+> The training will take a long time, so take a great time to rest.       
+>
+> **TIP:** 
+> </head><body><h1 style="padding-left: 56pt;text-indent: -54pt;text-align: left;">TIP: <span class="p">Colab Cloud Service kicks you off if you are idle for too long (60-90 mins).</span></h1><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 56pt;text-indent: 0pt;text-align: left;">To avoid this, you can download auto-clicker software or make a</p><p style="padding-left: 1pt;text-indent: 0pt;line-height: 12pt;text-align: left;">python script.</p></body></html>
+>
+>
+>
+>        
+>
+>
+>
+>
+>
+>        
+>
+>
+>
+>
+>
+>        
+>
+>
+>
+>
+>
+>        
+>
+>
+>
+>
+>
