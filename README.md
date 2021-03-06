@@ -54,9 +54,26 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > * Feature Extractor
 > * Feature Detector
 > 
+> The image is first received by the Feature Extractor which extracts
+> "features tables" and then given to the Feature Detector which exports
+> the processed image with the bounding boxes around the detected
+> classes.
+
+###### Feature Extractor
+> In the project, I used a network with 53 convolution layers
+> (Darknet-53).
+>
+>
+
+
+
+
+
+
+
+
 > 
-> 
-> 
+
 
 
 
