@@ -213,6 +213,7 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 <br/>
     
 > 4.  Get the Darknet model
+>           
 > ![title](/images/Image_017.jpg)
 <br/>
 
