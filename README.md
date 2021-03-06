@@ -96,7 +96,17 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > This matrix called a “grid” and assigns anchor boxes to each cell of
 > the grid. In other words, anchor boxes anchor to the grid cells, and they
 > share the same centroid.
->
+
+###### Feature Detector
+> The Feature Detector eventual output of a fully convolutional network
+> is done by applying 1x1 detection kernels on feature maps of three
+> different sizes at three different places. The shape of the kernel is
+> 1x1x(B*(5+C)).
+
+###### Complete Network Architecture
+> [Ayoosh Kathuria](https://towardsdatascience.com/@ayoosh?source=post_page-----53fb7d3bfe6b----------------------) made a very elaborate diagram that beautifully
+> explains the complete architecture of YOLO v3 (Combining both, the
+> extractor, and the detector).
 
 
 
