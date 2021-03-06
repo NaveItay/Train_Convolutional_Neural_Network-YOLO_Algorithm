@@ -86,8 +86,8 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > YOLOv3 extracts three feature vectors - (52x52), (26x26), and (13x13)
 > while the tiny version extracts only (26x26) and (13x13).
 > 
-> (52x52 for smaller objects, 26x26 for medium objects, and 13x13
-> would be used for the larger objects).
+> **(52x52 for smaller objects, 26x26 for medium objects, and 13x13
+> would be used for the larger objects).**
 >     
 > ![title](/images/Feature_Extractor_img2.PNG)
 >       
