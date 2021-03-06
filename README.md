@@ -159,6 +159,12 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > **TIP:** Shortcut keys can be used for quick and convenient labeling.
 >       
 > ![title](/images/Image_009.jpg) 
+
+###### Getting the files ready for training
+> After the labeling, we will see an image(JPG) and a text file with the same
+> name, respectively.
+> <span><img width="1100" height="500" alt="image" src="Convolutional Neural Network Project 3/Image_010.jpg"/></span>
+>     
 >
 
 
