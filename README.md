@@ -197,22 +197,28 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 >       
 > 2.       
 > ![title](/images/Image_015.jpg)
->       
+<br/>
+
 > You can see that I got a Tesla K80 GPU using the 11.2 Cuda version.
 > bad luck, sometimes I get the Tesla v100 😉.
->     <br/>
+<br/>
+
+  
 > 3.  Connect Colab with Google Drive
->     <br/>
+<br/>   
 > ![title](/images/Image_016.jpg)
->     <br/>  
+<br/>
+    
 > 4.  Get the Darknet model
 > ![title](/images/Image_017.jpg)
->     <br/>
+<br/>
+
 > 5.  Edit the .cfg to fit your needs based on your object detector
 > ![title](/images/Image_018.jpg)
-> ```     
+<br/>
+      
 > **How to Configure Your Variables:**
->     
+> ```    
 > width = 416
 > height = 416
 > *(these can be any multiple of 32, 416 is standard, you can sometimes improve*
