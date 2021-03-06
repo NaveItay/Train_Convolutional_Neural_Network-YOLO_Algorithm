@@ -38,5 +38,28 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > R-CNN, Faster R-CNN, Mask R-CNN, SSD, YOLO, etc. But we are
 > specifically interested in YOLO.
 
+###### YOLO - You Only Look Once
+> YOLO is one of the most powerful object detection algorithms.
+> Invented by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi,
+> so far it already has 5 different versions, we’re going to focus on YOLOv3.
+
+###### YOLOv3
+> YOLOv3 is more accurate, but a bit slower than its previous versions.
+> This model includes multi-scale identification, some changes in the loss
+> function, and a better feature extraction network.
+
+###### Network Architecture
+> The network architecture is made up of two main components.
+>       
+> * Feature Extractor
+> * Feature Detector
+> 
+> 
+> 
+> 
+
+
+
+
 
 
