@@ -108,7 +108,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > explains the complete architecture of YOLO v3 (Combining both, the
 > extractor, and the detector).
 >       
-> ![title](/images/Image_006.jpg =1500x750)
+> ![](/images/Image_006.jpg =1500x750)
 >       
 > Diagram from [https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 > 
