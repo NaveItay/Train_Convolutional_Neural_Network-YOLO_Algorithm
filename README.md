@@ -177,6 +177,7 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 >       
 > Create a folder named "yolov3" in Google Drive and put the dataset and
 > train_yolov3 notebook in it.
+>        
 > ![title](/images/Image_011.jpg)
 
 ###### Training the model (Darknet framework)
