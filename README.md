@@ -4,7 +4,7 @@
 [![title](/images/youtube.PNG "YOLOv3 Convolutional neural network for character detection from the SpongeBob series")](https://youtu.be/tL-7SYaRY38)
 
 
-In this project, I will talk about YoloV3 Architecture and how to train it on a custom dataset, I will explain step by step how to do it using Darknet framework.
+In this project, I will talk about YoloV3 Architecture and how to train it on a custom dataset, I will explain step by step how to do it using the Darknet framework.
 <br/><br/>
 
 ###  Introduction
