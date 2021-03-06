@@ -163,9 +163,9 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 ###### Getting the files ready for training
 > After the labeling, we will see an image(JPG) and a text file with the same
 > name, respectively.
-> <span><img width="1100" height="500" alt="image" src="Convolutional Neural Network Project 3/Image_010.jpg"/></span>
+> <span><img width="600" height="300" alt="image" src="Convolutional Neural Network Project 3/Image_010.jpg"/></span>
 >     
->
+> ![title](/images/Image_010.jpg)
 
 
 
