@@ -267,7 +267,8 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > The training will take a long time, so take a great time to rest.       
 >
 > **TIP:** 
-> </head><body><h1 style="padding-left: 56pt;text-indent: -54pt;text-align: left;">TIP: <span class="p">Colab Cloud Service kicks you off if you are idle for too long (60-90 mins).</span></h1><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 56pt;text-indent: 0pt;text-align: left;">To avoid this, you can download auto-clicker software or make a</p><p style="padding-left: 1pt;text-indent: 0pt;line-height: 12pt;text-align: left;">python script.</p></body></html>
+> </head><body><p style="padding-left: 1pt;text-indent: 0pt;line-height: 12pt;text-align: left;">Colab Cloud Service kicks you off if you are idle for too long</p><p style="padding-left: 1pt;text-indent: 0pt;line-height: 12pt;text-align: left;">(60-90 mins).</p><p style="text-indent: 0pt;text-align: left;"><br/></p><p style="padding-left: 1pt;text-indent: 0pt;text-align: left;">To avoid this, you can download auto-clicker software or make a</p><p style="padding-left: 1pt;text-indent: 0pt;line-height: 12pt;text-align: left;">python script.</p></body></html>
+>
 >
 >
 >
