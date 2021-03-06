@@ -165,7 +165,16 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > name, respectively.
 > <span><img width="600" height="300" alt="image" src="Convolutional Neural Network Project 3/Image_010.jpg"/></span>
 >     
-> ![title](/images/Image_010.jpg)
+> **in YOLO, the format looks like this**
+> 0 0.645508 0.592448 0.134766 0.216146
+> 2 0.756836 0.368490 0.138672 0.200521
+> 3 0.097656 0.563802 0.187500 0.513021
+>     
+> | 0 |  0.645508 0.592448 | 0.134766 0.216146 |
+> | 2 |  0.756836 0.368490 | 0.138672 0.200521 |
+> | 3 |  0.097656 0.563802 | 0.187500 0.513021 |
+>
+>
 
 
 
