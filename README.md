@@ -195,25 +195,48 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 >       
 > ![title](/images/GPU.PNG)
 >       
-> 2.  ![title](/images/Image_015.jpg)
+> 2.       
+> ![title](/images/Image_015.jpg)
 >       
-> You can see that we got a Tesla K80 GPU using the 11.2 Cuda version.
-> bad luck, sometimes I got the Tesla v100 😉.
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
+> You can see that I got a Tesla K80 GPU using the 11.2 Cuda version.
+> bad luck, sometimes I get the Tesla v100 😉.
+>     
+> 3.  Connect Colab with Google Drive
+>     
+> ![title](/images/Image_016.jpg)
+>       
+> 4.  Get the Darknet model
+> ![title](/images/Image_017.jpg)
+>      
+> 5.  Edit the .cfg to fit your needs based on your object detector
+> ![title](/images/Image_018.jpg)
+>      
+> **How to Configure Your Variables:**
+>     
+> width = 416
+> height = 416
+> *(these can be any multiple of 32, 416 is standard, you can sometimes improve*
+> *results by making value larger like 608 but will slow down training).*
+>        
+> Max_batches = (number of classes) * 2000
+> *(but no less than 6000 so if you are training for 1, 2, or 3 classes it will be 6000,*
+> *however, the detector for 5 classes would have max_batches=10000).*
+>        
+> Steps = (80% of max_batches), (90% of max_batches)
+> *(so, if your max_batches = 10000, then steps = 8000, 9000).*
+>      
+> Filters = (number of classes + 5) * 3
+> 
+> *(so, if you are training for one class then your filters = 18, but if you are training
+> for 4 classes then your filters = 27).*
+>     
+> **Optional:** If you run into memory issues or find the training taking a super
+> long time. In each of the three yolo layers in the cfg, change one line from
+> random = 1 to random = 0 to speed up training but slightly reduce the
+> accuracy of the model. Will also help save memory if you run into any
+> memory issues.
+>        
+
 
 
 
