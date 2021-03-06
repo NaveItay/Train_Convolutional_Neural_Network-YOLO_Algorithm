@@ -193,7 +193,7 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 >      
 > 1.  Make sure you enable GPU.
 >       
-> ![title](/images/GPU.png)
+> ![title](/images/GPU.PNG)
 >       
 > 2.  ![title](/images/Image_015.jpg)
 >       
