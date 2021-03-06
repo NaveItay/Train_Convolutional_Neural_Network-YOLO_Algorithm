@@ -63,7 +63,8 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > In the project, I used a network with 53 convolution layers
 > (Darknet-53).
 >
->
+>  ![title](/Images/Image_004.PNG)
+>  This image is the darknet-53 architecture taken from [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
 
 
 
