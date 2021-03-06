@@ -68,6 +68,8 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 >       
 >  This image is the darknet-53 architecture taken from [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
 >       
+>     
+>     
 >  This CNN is built with consecutive 3x3 and 1x1 convolution layers
 >  followed by a skip connection.
 >  The 53 layers of the Darknet add another 53 layers to the detection
@@ -87,7 +89,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > (52x52 for smaller objects, 26x26 for medium objects, and 13x13
 > would be used for the larger objects).
 >     
-> ![title](/images/Image_005.jpg)
+> ![title](/images/Feature_Extractor_img2.PNG)
 >       
 > Multi-scale Feature Extractor for a 416x416 image
 > 
