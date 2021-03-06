@@ -107,6 +107,12 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > [Ayoosh Kathuria](https://towardsdatascience.com/@ayoosh?source=post_page-----53fb7d3bfe6b----------------------) made a very elaborate diagram that beautifully
 > explains the complete architecture of YOLO v3 (Combining both, the
 > extractor, and the detector).
+>       
+> ![title](/images/Image_006.jpg)
+>       
+> Diagram from [https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
+> 
+> 
 
 
 
