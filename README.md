@@ -67,8 +67,34 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 >  ![title](/images/Image_004.jpg)
 >       
 >  This image is the darknet-53 architecture taken from [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
->  
+>  This CNN is built with consecutive 3x3 and 1x1 convolution layers
+>  followed by a skip connection.
+>  The 53 layers of the Darknet add another 53 layers to the detection
+>  head, meaning the basic architecture of YOLOv3 contains 106 layers
+>  making it a relatively larger architecture than the previous versions,
+>  although the processing time is a bit slower but improves the accuracy
+>  at the same time.
+>       
+>  In our case, we would like to detect the classes with the locations, so in
+> the extractor, there is a detection head.
+> The detection head is a multi-scale detection hence, we would need to
+> extract features at multiple scales as well.
+>       
+> YOLOv3 extracts three feature vectors - (52x52), (26x26), and (13x13)
+> while the tiny version extracts only (26x26) and (13x13).
+> 
+> (52x52 for smaller objects, 26x26 for medium objects, and 13x13
+> would be used for the larger objects).
+>     
+> ![title](/images/Image_005.jpg)
+>       
+> Multi-scale Feature Extractor for a 416x416 image
+> 
+> This matrix called a “grid” and assigns anchor boxes to each cell of
+> the grid. In other words, anchor boxes anchor to the grid cells, and they
+> share the same centroid.
 >
+
 
 
 
