@@ -146,5 +146,20 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > [roboflow](https://public.roboflow.com/) and others...
 
 ###### Labeling
+>       
+> ![title](/images/Image_008.jpg) 
+>       
+> There are many labeling tools like [VoTT](https://github.com/microsoft/VoTT), [CVAT](https://cvat.org/), and [Labelimg](https://github.com/tzutalin/labelImg).
+> In this project, I performed using [TZUTA LIN's](https://tzutalin.github.io/labelImg/) Labelimg software.
 > 
+> I recommend Labelimg because it is popular and easy to use, you can
+> download it from [here](https://tzutalin.github.io/labelImg/) to Windows or Linux operating systems.
+>     
+>        
+> **TIP:** Shortcut keys can be used for quick and convenient labeling.
+>       
+> ![title](/images/Image_009.jpg) 
+>
+
+
 
