@@ -166,18 +166,36 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > <span><img width="600" height="300" alt="image" src="Convolutional Neural Network Project 3/Image_010.jpg"/></span>
 >     
 > **in YOLO, the format looks like this**
-> | class index      | (x, y) coordinates |
-> | ----------- | ----------- |
-> | Header      | Title       |
-> | Paragraph   | Text        |
-> 
+>       
 > | class index | (x, y) coordinates | width, height |
 > | ----------- | ------------------ | ----------------- | 
-> | 0           |  0.645508 0.592448 | 0.134766 0.216146 |
-> | 2           |  0.756836 0.368490 | 0.138672 0.200521 |
-> | 3           |  0.097656 0.563802 | 0.187500 0.513021 |
+> | 0           |  0.645508, 0.592448 | 0.134766, 0.216146 |
+> | 2           |  0.756836, 0.368490 | 0.138672, 0.200521 |
+> | 3           |  0.097656, 0.563802 | 0.187500, 0.513021 |
+>     
+> Compress them to a zip folder and rename it to "images.zip".
+>       
+> Create a folder named "yolov3" in Google Drive and put the dataset and
+> train_yolov3 notebook in it.
+> ![title](/images/Image_011.jpg)
+
+###### Training the model (Darknet framework)
+> Darknet is an open-source neural network framework written in C and CUDA.
+> It is fast, easy to install, and supports CPU and GPU computation. You can
+> find the source on [GitHub](https://github.com/pjreddie/darknet).
+>       
+> Reference: [pjreddie.com](https://pjreddie.com/darknet/yolo/).
 >
->
+> ![title](/images/Image_012.jpg)
+>       
+> Now let's start with Google Colab Notebook.
+>      
+> 1.  Make sure you enable GPU.
+> 
+
+
+
+
 
 
 
