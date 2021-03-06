@@ -200,17 +200,17 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 >       
 > You can see that I got a Tesla K80 GPU using the 11.2 Cuda version.
 > bad luck, sometimes I get the Tesla v100 😉.
->     
+>     <br/>
 > 3.  Connect Colab with Google Drive
->     
+>     <br/>
 > ![title](/images/Image_016.jpg)
->       
+>     <br/>  
 > 4.  Get the Darknet model
 > ![title](/images/Image_017.jpg)
->      
+>     <br/>
 > 5.  Edit the .cfg to fit your needs based on your object detector
 > ![title](/images/Image_018.jpg)
->      
+> ```     
 > **How to Configure Your Variables:**
 >     
 > width = 416
@@ -226,15 +226,16 @@ In this project, I will talk about YoloV3 Architecture and how to train it on a 
 > *(so, if your max_batches = 10000, then steps = 8000, 9000).*
 >      
 > Filters = (number of classes + 5) * 3
-> 
+>       
 > *(so, if you are training for one class then your filters = 18, but if you are training
 > for 4 classes then your filters = 27).*
->     
+>       
 > **Optional:** If you run into memory issues or find the training taking a super
 > long time. In each of the three yolo layers in the cfg, change one line from
 > random = 1 to random = 0 to speed up training but slightly reduce the
 > accuracy of the model. Will also help save memory if you run into any
 > memory issues.
+> ```
 >        
 
 
