@@ -13,7 +13,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 
 ###  How to train YOLOv3 on a custom dataset
 
-</head><body><ul id="l1"><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Data Preparation</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Labelimg</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Getting the files ready for training</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Training the model by using Darknet</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Use your custom weights for object detection.</p></li></ul></body></html>
+</head><body><ul id="l1"><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Data Preparation</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Labeling</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Getting the files ready for training</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Training the model by using Darknet</p></li><li><p style="padding-left: 42pt;text-indent: -35pt;line-height: 13pt;text-align: left;">Use your custom weights for object detection.</p></li></ul></body></html>
 
 #
 <center><h3>Introduction</h3></center>
@@ -124,14 +124,27 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 > The multi-scale detector is used to ensure that the small objects are
 > also detected in contrast to the previous versions.
 
+#
+
 <br/><br/>
 <center><h3>How to train YOLOv3 on a custom dataset</h3></center>
 
+###### Data Preparation
+> In this project, I download an entire episode of SpongeBob and then saved a
+> frame every 60 frames to create the dataset.
+> (vid2frames.py Script)
+>       
+> ![title](/images/Image_007.jpg) 
+>       
+> * 160 ~ Photos of SpongeBob
+> * 98 ~ Photos of Squidward
+> * 80 ~ Pictures of MrKrabs
+> * 50 ~ Pictures of Patrick
+> * 35 ~ Photos of Plankton
+>       
+> Another option, you can download ready-made datasets from [googleapis.com](https://storage.googleapis.com/openimages/web/index.html),
+> [roboflow](https://public.roboflow.com/) and others...
 
-
-
-
-
-
-
+###### Labeling
+> 
 
