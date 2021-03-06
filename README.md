@@ -1,7 +1,6 @@
 # Train Convolutional Neural Network - YOLO Algorithm
 
 ![title](/images/detect_Bobsfog.PNG)
-![title](/images/youtube.PNG)
 [![title](/images/youtube.PNG "YOLOv3 Convolutional neural network for character detection from the SpongeBob series")](https://youtu.be/tL-7SYaRY38)
 
 
