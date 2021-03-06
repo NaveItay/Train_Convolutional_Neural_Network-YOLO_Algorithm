@@ -67,6 +67,7 @@ In this project, we will talk about YoloV3 Architecture and how to train it on a
 >  ![title](/images/Image_004.jpg)
 >       
 >  This image is the darknet-53 architecture taken from [YOLOv3: An Incremental Improvement](https://arxiv.org/pdf/1804.02767.pdf)
+>       
 >  This CNN is built with consecutive 3x3 and 1x1 convolution layers
 >  followed by a skip connection.
 >  The 53 layers of the Darknet add another 53 layers to the detection
